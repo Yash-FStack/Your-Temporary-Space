@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="Yash" />
+    <title>CONTACT Your Temporary Space</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../js/script.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link
+      href="css/phone.css"
+      rel="stylesheet"
+      media="only screen and (max-width:1200px)"
+    />
+    <script>
+      var chatbox = document.getElementById("fb-customer-chat");
+      chatbox.setAttribute("page_id", "110492771286527");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: "v11.0",
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, "script", "facebook-jssdk");
+    </script>
+  </head>
+
+  <body id="page-top">
+    <!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
+
+    <!-- Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container px-4 px-lg-5">
+        <a class="navbar-brand" href="#page-top">Your TMP Space</a>
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Title-->
+    <header class="masthead">
+      <div
+        class="
+          container
+          px-4 px-lg-5
+          d-flex
+          h-100
+          align-items-center
+          justify-content-center
+        "
+      >
+        <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <h1
+              style="
+                font-size: 2rem;
+                font-size: 2rem;
+                bottom: 2cm;
+                line-height: 3.5rem;
+                letter-spacing: 0.5rem;
+                position: relative;
+              "
+              class="mx-auto my-0"
+            >
+              YOU CAN CONTACT US THROUGH VARIOUS AVAILABLE WAYS.. <br />
+              WE RESPOND TO EACH OF THEM AS SOON AS WE CAN.<br />
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feedback Form-->
+
+      <!-- Contact Links-->
+      <section class="contact-section bg-black">
+        <div class="container px-4 px-lg-5">
+          <div class="row gx-4 gx-lg-5">
+            <div
+              style="margin-top: -18rem"
+              class="social d-flex justify-content-center"
+            >
+              <a
+                onmouseenter="form1()"
+                onmouseleave="form2()"
+                style="height: 7rem; width: 7rem"
+                class="mx-2"
+                target="_blank"
+                href="index.html"
+                ><i
+                  style="height: 3cm; width: 1.5cm"
+                  class="fas fa-file-contract"
+                ></i
+              ></a>
+              <a
+                onmouseenter="insta1()"
+                onmouseleave="insta2()"
+                style="height: 7rem; width: 7rem"
+                class="mx-2"
+                target="_blank"
+                href="https://www.instagram.com/yourtemporaryspace/"
+                ><i
+                  style="height: 3cm; width: 1.5cm"
+                  class="fab fa-instagram"
+                ></i
+              ></a>
+              <a
+                onmouseenter="facebook1()"
+                onmouseleave="facebook2()"
+                style="height: 7rem; width: 7rem"
+                class="mx-2"
+                target="_blank"
+                href="https://www.facebook.com/YourTemporarySpace"
+                ><i
+                  style="height: 3cm; width: 1.5cm"
+                  class="fab fa-facebook-f"
+                ></i
+              ></a>
+              <a
+                onmouseenter="mail1()"
+                onmouseleave="mail2()"
+                style="height: 7rem; width: 7rem"
+                class="mx-2"
+                target="_blank"
+                href="mailto:ytmp.space@gmail.com"
+                ><i
+                  style="height: 3cm; width: 1.5cm"
+                  class="fas fa-envelope"
+                ></i
+              ></a>
+            </div>
+            <div id="none">
+              <h1 id="text" style="position: relative; bottom: 5cm; left: 10cm">
+                Form
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer-->
+      <footer class="footer bg-black small text-center text-white-50">
+        <div class="container px-4 px-lg-5">
+          Copyright &copy; Your Temporary Space 2021
+        </div>
+      </footer>
+    </header>
+  </body>
+</html>
