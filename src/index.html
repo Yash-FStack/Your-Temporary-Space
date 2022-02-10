@@ -19,6 +19,17 @@
       src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // POP-UP close function
+  function popClose() {
+  document.getElementById("formBtn").style.background = "#64a19d";
+  document.getElementById("formBtn").textContent = "Submit your first request";
+  document.getElementsByClassName("popup")[0].classList.remove("active");
+  document.getElementById("projects").style.display = "block";
+  // console.log("popup close");
+}
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <link
