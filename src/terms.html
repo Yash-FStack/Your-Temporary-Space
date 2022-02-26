@@ -26,94 +26,55 @@ window.history.replaceState( null, null, link );
 </script>
     </head>
 
-    <body id="page-top">
-        <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "110492771286527");
-      chatbox.setAttribute("attribution", "biz_inbox");
-
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v11.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-
+   
         <!-- Navigation Bar--> 
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#">Your TMP Space</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-            </div>
+       
+        <input style="display: none;" class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+        <label for="menu-icon"></label>
+        <nav class="nav"> 		
+            <ul class="pt-5">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
-            </div>
-        </nav>
+        
 
         <!-- Main Title-->
         <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <h1>
+                Your TMP Space
+            </h1> <br><br>
+            <div class="container px-4 px-lg-5 d-flex align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                        
-                       
+                        <p style="position: relative;
+                        bottom: 13cm;
+                        text-align: justify;
+                        font-size: 2rem" class="text-white-50">
+                        <ol style="text-align: justify; color: white; font-size: larger; line-height: 2;">
+                            <li>
+                             We will never ever public or expose your personal details and identity to the outside world. 
+                            </li>
+                            <li>  We take the full responsibility of confidentiality of your data.</li>
+                            <li> Every call gets recorded and kept for future reference hence, you are kindly requested to talk to your virtual listeners without making any use of foul language at all </li>
+                                <li>   If we found that you are violating any of our described conditions then we will be forced to take actions against you such as blocking you from submitting further requests.</li>
+                                    <li>  Same goes with your listners too, if they are found to be violating any of the conditions then they we will be terminating his / her account permanently. </li>
+                                        <li>  We will be increasing our security levels in future but that doesn't mean that your data is not safe with us in the present time.</li>
+                                        </ol>
+                                            
+                        </p>
                     </div>
                 </div>
             </div>
         </header>
 
-<section class="about-section text-center" id="about">            
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-8">
-               
-                    <p style="position: relative;
-                    bottom: 13cm;
-                    font-size: 2rem" class="text-white-50">
-                        1. We will never ever public or expose your personal details and identity to the outside world. <br>
-                        2. We take the full responsibility of confidentiality of your data.<br>
-                        3. Every call gets recorded and kept for future reference hence, 
-                            you are kindly requested to talk to your virtual listeners without making any use of foul language at all
-                        4. If we found that you are violating any of our described conditions then 
-                            we will be forced to take actions against you such as blocking you from submitting further requests.  <br>
-                        5. Same goes with your listners too, 
-                            if they are found to be violating any of the conditions then they we will be terminating his / her account permanently.<br>
-                        6. We will be increasing our security levels in future but that doesn't mean that your data is not safe with us in the present time.
-                    </p>
-                     </div>
-           
-           
-        </div>
-        
-        
-    </div>
-</section>
-<footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Temporary Space 2021</div></footer>
-    </body>
+        <footer class="footer bg-black small text-center text-white-50">
+            <div class="container px-4 px-lg-5">
+              Copyright &copy; Your Temporary Space 2021
+            </div>
+          </footer>    </body>
     </html>

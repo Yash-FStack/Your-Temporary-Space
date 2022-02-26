@@ -228,36 +228,17 @@
         fjs.parentNode.insertBefore(js, fjs);
       })(document, "script", "facebook-jssdk");
     </script>
-
-    <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="#">Your TMP Space</a>
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
+ <input style="display: none;" class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+ <label for="menu-icon"></label>
+ <nav class="nav"> 		
+     <ul class="pt-5">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About Us</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Gallery</a></li>
+         <li><a href="#">Contact Us</a></li>
+     </ul>
+ </nav>
     <!-- Main Title-->
     <header class="masthead">
       <div
@@ -501,6 +482,7 @@
             <h2 class="text-white mb-20">Your Feedback is precious to us!</h2>
             <form class="form-signup d-flex flex-column flex-sm-row">
               <input
+              style="border-radius: 20px;"
                 class="form-control flex-fill me-0 me-sm-2 mb-3 mb-sm-0"
                 id="feedback"
                 type="text"
@@ -513,13 +495,7 @@
           </div>
         </div>
       </div>
-      <div id="quote">
-        <h1 class="text-white mb-4">
-          <span>OVERTHINKING</span> IS THE <span>EASIEST</span> AND THE
-          <span>MOST DANGEROUS</span> THING THAT SOMEONE CAN DO WHILE THEY'RE
-          <span>ALONE.</span>
-        </h1>
-      </div>
+  
     </section>
 
     <!-- Contact Links-->
